@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main10_scene"
+    tools:context=".MainActivity10"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="313dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="60dp"
+        android:hint="Name"
+        android:text="Varsha Mani" />
+
+    <EditText
+        android:id="@+id/upi_id"
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:hint="UPI ID"
+        android:text="varshatheeran@okhdfcbank" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="322dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="30dp"
+        android:hint="Amount"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="133dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="491dp"
+        android:layout_marginBottom="53dp"
+        android:hint="Button"
+        android:text="Pay Now" />
+
+
+</LinearLayout>
